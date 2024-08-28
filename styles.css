@@ -1,0 +1,52 @@
+body{
+color: white;
+background: black;
+margin: 0px;
+font-family: "Chakra Petch", sans-serif;  
+}
+
+header{
+    border-bottom: solid 2px rgb(42, 122, 228); 
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(42, 122, 228);
+}
+
+div{
+    background: rgb(184, 156, 213);
+padding-bottom: 80px;
+padding-top: 80px   
+; display: flex;
+flex-direction: column;
+
+
+;justify-content: center;
+} 
+<section class="categoria">
+    <h2>Filmes e séries</h2>
+    <div class="categoria-videos">
+        <img src="video1.jpg" alt="Vídeo 1">
+        <img src="video2.jpg" alt="Vídeo 2">
+        <img src="video3.jpg" alt="Vídeo 3">
+    </div>
+</section>
+
+   img{
+    height: 200px;
+   }
+   
+   .categoria-videos{
+    display: flex;
+    overflow - x  
+}
+categoria-videos img:hover{
+
+
+    opacity: 1.0; 
+    border: 1px solid green;
+
+}
+
+.categoria h2{
+    color: rgb(42, 122, 228);
+}
